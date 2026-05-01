@@ -13,7 +13,7 @@ ACTIVE_TASK: configure overnight task queue and answer OQ-01 + OQ-02.
 
 NEXT_ACTION (Sage): answer two blocking questions:
   OQ-01: What is the overnight task queue?
-  OQ-02: Is PRO domain Mercor/Pavilion-specific or general-purpose?
+  OQ-02: Is PRO domain evaluation platform-specific or general-purpose?
 
 NEXT_ACTION (agent S2 open): load HOT_CACHE, run Trinity on OQ answers, configure PARAMS.md overnight_queue block, write session_plan for first overnight run.
 
@@ -51,7 +51,7 @@ CONFIDENCE: TRUE=1 scaffold. FALSE=0 overnight run.
 ## OPEN_Q
 
 OQ-01 (BLOCKING): What is the overnight task queue? Specific tasks, order, models, time budget.
-OQ-02 (RESOLVED 2026-04-24): PRO domain IS Mercor/Pavilion-specific. Rubrics Correction project. Canon: bootstrap.md + skills.md + spec.md pattern (zero_bloat_protocol, HOT_CACHE, GRAPH_LINKS, COMPACTION_LEDGER, INSIGHTS_LEDGER, OPEN_Q). Examples uploaded by Sage confirm exact template.
+OQ-02 (RESOLVED 2026-04-24): PRO domain IS evaluation platform-specific. Rubrics Correction project. Canon: bootstrap.md + skills.md + spec.md pattern (zero_bloat_protocol, HOT_CACHE, GRAPH_LINKS, COMPACTION_LEDGER, INSIGHTS_LEDGER, OPEN_Q). Examples uploaded by Sage confirm exact template.
 OQ-03 (ADVISOR): Which files need structural revision per Opus advisor review?
 
 ---

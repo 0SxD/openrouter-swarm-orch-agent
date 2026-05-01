@@ -24,8 +24,8 @@ This tells you where all project brain paths and hooks live. If it doesn't exist
 
 ## Step 2 — Read global memory
 Read in order:
-- `C:\Users\Austin.DESKTOP-8AMMKQP\.claude\projects\C--apps-ai\memory\MEMORY.md` (routing table — read this first)
-- `C:\Users\Austin.DESKTOP-8AMMKQP\.claude\OPEN_BRAIN.md` (cross-project identity, if exists)
+- `<staging_path>\.claude\projects\C--apps-ai\memory\MEMORY.md` (routing table — read this first)
+- `<staging_path>\.claude\OPEN_BRAIN.md` (cross-project identity, if exists)
 
 ## Step 3 — Read OpenBrainLM project brain
 Read in order:
@@ -58,9 +58,9 @@ Read in order:
 After reading all memory files, look at `OpenBrainLM/memory/short_term.md` for a section marked `## ⚡ SESSION HANDOFF`. If one exists:
 - It contains specific first-action instructions. Follow them EXACTLY and IN ORDER.
 - The handoff overrides the generic "What are we building today?" question.
-- Exception: if Austin gave you a specific task alongside the harness request (e.g. "load the harness then do X"), hold that task in mind — complete the handoff sequence first, then address the additional task.
+- Exception: if Sage gave you a specific task alongside the harness request (e.g. "load the harness then do X"), hold that task in mind — complete the handoff sequence first, then address the additional task.
 - Do NOT ask "What are we building today?" if a handoff exists. The handoff tells you what to do. Follow it.
-- Only ask "What are we building today?" if there is NO active handoff AND Austin gave no additional task.
+- Only ask "What are we building today?" if there is NO active handoff AND Sage gave no additional task.
 
 If no active handoff section exists, go straight to Step 7.
 

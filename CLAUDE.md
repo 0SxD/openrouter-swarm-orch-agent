@@ -126,7 +126,7 @@ Full verification log: `wiki/handoffs/ORCHESTRATION_FRAMEWORK_SETUP.md`
 ## Open Questions (gate first session use)
 
 OQ-01: What is the overnight task queue?
-OQ-02: Is the Rubrics Orchestrator domain Mercor/Pavilion-specific or general-purpose prompt evaluation?
+OQ-02: Is the Rubrics Orchestrator domain evaluation platform-specific or general-purpose prompt evaluation?
 OQ-03: Which orchestration framework -- Overstory (SQLite mail, strict hierarchy, OpenRouter-native) or OMC (tmux workers, tri-model advisory, no OpenRouter)? Or both for different agent types?
 
 These must be answered before the overnight swarm run is configured.
